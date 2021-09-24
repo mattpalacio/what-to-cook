@@ -1,0 +1,59 @@
+.card {
+  width: 400px;
+  min-height: 100%;
+  border-radius: 0.2rem;
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0 0 0 / 0.1),
+    0.4rem 0.8rem 0.8rem rgba(0 0 0 / 0.1),
+    0.8rem 1.6rem 1.6rem rgba(0 0 0 / 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardImage {
+  height: 100%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardFooter {
+  padding: 1rem;
+  background-color: rgba(0 0 0 / 0.2);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.likeButton {
+  border: none;
+  background-color: transparent;
+  color: red;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease-in;
+}
+
+.special {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  background-color: gold;
+  box-shadow: 0.1rem 0.2rem 0.2rem rgba(0 0 0 / 0.1),
+    0.2rem 0.3rem 0.3rem rgba(0 0 0 / 0.1),
+    0.3rem 0.4rem 0.4rem rgba(0 0 0 / 0.1);
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
